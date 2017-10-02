@@ -150,5 +150,4 @@ class Personnel {
         }
         return sal/num;
     }
-
 }

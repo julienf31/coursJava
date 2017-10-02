@@ -19,4 +19,3 @@ public class SigneNombre {
         System.out.println("Positif ou nul");
     }
 }
-
