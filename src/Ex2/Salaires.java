@@ -28,18 +28,18 @@ abstract class Employe {
         this.salary = salary;
     }
 
-    String nom;
-    String prenom;
-    int age;
-    String dateEmbauche;
-    int salary;
-    int salaire; // pas utile ?
+    protected String nom;
+    protected String prenom;
+    protected int age;
+    protected String dateEmbauche;
+    protected int salary;
+    protected int salaire; // pas utile ?
 
-    double calculerSalaire(){
+    protected double calculerSalaire(){
         return 0;
     }
 
-    String getNom(){
+    protected String getNom(){
         return "L'employé " + prenom + " " + nom;
     }
 }
@@ -49,11 +49,11 @@ class Vendeur extends Employe{
         super(nom,prenom,age,dateEmbauche,salary);
     }
 
-    double calculerSalaire(){
+    protected double calculerSalaire(){
         return (salary*0.20)+400;
     }
 
-    String getNom(){
+    protected String getNom(){
         return"Le vendeur " + prenom + " " + nom;
     }
 }
@@ -63,11 +63,11 @@ class Representant extends Employe{
         super(nom,prenom,age,dateEmbauche,salary);
     }
 
-    double calculerSalaire(){
+    protected double calculerSalaire(){
         return (salary*0.20)+800;
     }
 
-    String getNom(){
+    protected String getNom(){
         return "Le représentant " + prenom + " " + nom;
     }
 }
@@ -77,11 +77,11 @@ class Technicien extends Employe{
         super(nom,prenom,age,dateEmbauche,salary);
     }
 
-    double calculerSalaire(){
+    protected double calculerSalaire(){
         return salary*5;
     }
 
-    String getNom(){
+    protected String getNom(){
         return "Le technicien " + prenom + " " + nom;
     }
 }
@@ -91,11 +91,11 @@ class Manutentionnaire extends Employe{
         super(nom,prenom,age,dateEmbauche,salary);
     }
 
-    double calculerSalaire(){
+    protected double calculerSalaire(){
         return salary*65;
     }
 
-    String  getNom(){
+    protected String  getNom(){
         return "Le manutentionnaire " + prenom + " " + nom;
     }
 }
@@ -109,8 +109,12 @@ class TechARisque extends Technicien implements EmployeARisque {
         super(nom,prenom,age,dateEmbauche,salary);
     }
 
-    double calculerSalaire(){
+    protected double calculerSalaire(){
         return (salary*5) + prime;
+    }
+
+    protected String getNom(){
+        return "Le technicien à risque " + prenom + " " + nom;
     }
 }
 
@@ -119,11 +123,11 @@ class ManutARisque extends Manutentionnaire implements EmployeARisque{
         super(nom,prenom,age,dateEmbauche,salary);
     }
 
-    double calculerSalaire(){
+    protected double calculerSalaire(){
         return (salary*65) + prime;
     }
 
-    String getNom(){
+    protected String getNom(){
         return "Le manutentionnaire à risque " + prenom + " " + nom;
     }
 }
@@ -135,13 +139,13 @@ class Personnel {
         list.add(employe);
     }
 
-    void calculerSalaires(){
+    protected void calculerSalaires(){
         for(Employe e:this.list){
             System.out.println(e.getNom() + " est payé " + e.calculerSalaire() + " euros par mois.");
         }
     }
 
-    double salaireMoyen(){
+    protected double salaireMoyen(){
         double sal = 0;
         int num = 0;
         for(Employe e:this.list){
