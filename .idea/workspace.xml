@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8877e5fa-664a-4eb7-bb59-9140bf5c385a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TPSimpleIO/Ex5/resources/file1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TPSimpleIO/Ex6/src/CopyImage.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TPSimpleIO/Ex5/resources/file.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fil.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/file.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/file2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/java/file.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/java/filetest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/save.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TPSimpleIO/Ex5/resources/filetest.txt" afterPath="$PROJECT_DIR$/TPSimpleIO/Ex4/file/file.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/CopyContent.class" afterPath="$PROJECT_DIR$/out/production/java/CopyContent.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/PrintIntoFile.class" afterPath="$PROJECT_DIR$/out/production/java/PrintIntoFile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/better/Salaires.class" afterPath="$PROJECT_DIR$/out/production/java/better/Salaires.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/better/service/Personnel.class" afterPath="$PROJECT_DIR$/out/production/java/better/service/Personnel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/better/service/SaveManager.class" afterPath="$PROJECT_DIR$/out/production/java/better/service/SaveManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/java/better/service/Wizard.class" afterPath="$PROJECT_DIR$/out/production/java/better/service/Wizard.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPSimpleIO/Ex4/src/PrintIntoFile.java" afterPath="$PROJECT_DIR$/TPSimpleIO/Ex4/src/PrintIntoFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPSimpleIO/Ex5/src/CopyContent.java" afterPath="$PROJECT_DIR$/TPSimpleIO/Ex5/src/CopyContent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPSimpleIO/Ex7/src/better/Salaires.java" afterPath="$PROJECT_DIR$/TPSimpleIO/Ex7/src/better/Salaires.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPSimpleIO/Ex7/src/better/service/Personnel.java" afterPath="$PROJECT_DIR$/TPSimpleIO/Ex7/src/better/service/Personnel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPSimpleIO/Ex7/src/better/service/SaveManager.java" afterPath="$PROJECT_DIR$/TPSimpleIO/Ex7/src/better/service/SaveManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TPSimpleIO/Ex7/src/better/service/Wizard.java" afterPath="$PROJECT_DIR$/TPSimpleIO/Ex7/src/better/service/Wizard.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java.iml" afterPath="$PROJECT_DIR$/java.iml" />
-    </list>
+    <list default="true" id="8877e5fa-664a-4eb7-bb59-9140bf5c385a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -426,12 +401,20 @@
       <workItem from="1507967805371" duration="3544000" />
       <workItem from="1508154879465" duration="570000" />
       <workItem from="1508165894117" duration="297000" />
-      <workItem from="1508174505703" duration="2521000" />
+      <workItem from="1508174505703" duration="2598000" />
     </task>
+    <task id="LOCAL-00001" summary="last update">
+      <created>1508177347686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508177347686</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69462000" />
+    <option name="totallyTimeSpent" value="69539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="718" extended-state="0" />
@@ -471,6 +454,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="last update" />
+    <option name="LAST_COMMIT_MESSAGE" value="last update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -630,7 +617,7 @@
         <state relative-caret-position="405">
           <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
