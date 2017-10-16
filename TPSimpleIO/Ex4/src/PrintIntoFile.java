@@ -6,7 +6,8 @@ import java.util.Scanner;
 
 public class PrintIntoFile {
 
-    static File file = new File("file.txt");
+    static File file = new File("./TPSimpleIO/Ex4/file/file.txt");
+
     public static void main(String[] args){
         String s = "";
         Scanner scan = new Scanner(System.in);

@@ -23,7 +23,7 @@ public class Personnel {
     public void afficherSalaires() {
         employees.forEach(employee -> System.out.println(String.format(PRINT_PATTERN, employee.getName(), employee.calculerSalaire())));
         System.out.println(String.format(
-                "Le salaire moyen dans l'entreprise est de %.2f francs.",
+                "Le salaire moyen dans l'entreprise est de %.2f euros.",
                 salaireMoyen()
         ));
     }

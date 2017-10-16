@@ -13,6 +13,8 @@
       <sourceFolder url="file://$MODULE_DIR$/TPSimpleIO/Ex4/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/TPSimpleIO/Ex7/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TPSimpleIO/Ex6/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TPSimpleIO/Ex6/Images" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

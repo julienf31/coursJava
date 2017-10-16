@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class Wizard {
 
+
     private int type = 0;
     private String typeLabel = "Non définis";
     private String firstname = "Non renseigné";
@@ -56,6 +57,7 @@ public class Wizard {
                     break;
             }
         }
+        valid = false;
         switch (type){
             case 1:
                 return new Vendeur(lastname,firstname,age,entryYear,salary);
@@ -182,5 +184,16 @@ public class Wizard {
             System.out.println("Valeur saisie non numérique !");
         }
         this.salary = choice;
+    }
+
+    public void resetwizard(){
+        this.type = 0;
+        this.typeLabel = "Non définis";
+        this.firstname = "Non renseigné";
+        this.lastname = "Non renseigné";
+        this.age = 0;
+        this.entryYear = "Non renseigné";
+        this.salary = 0;
+        this.valid = false;
     }
 }
